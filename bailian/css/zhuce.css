@@ -1,0 +1,155 @@
+.ZC-box{background:#f9f9f8}
+.ZC-top{
+    height:110px;
+}
+.ZC-wrap{
+    width:950px;margin:0 auto;
+}
+.ZC-wrap .ZC-img{margin-top:21px;display:block;float:left;color:#666666}
+
+.ZC-main{
+    width: 100%; height: 635px; background: #fff;
+    border: 1px solid #e1dfda
+}
+.ZC-mainT{
+    height: 30px;border-bottom: 1px solid #e1dfda;
+    padding: 10px 20px; line-height: 30px;
+}
+.ZC-MTitle{
+    float: left;
+    font-size: 16px;
+    font-family: 'Microsoft YaHei';
+    color: #ff002a;
+}
+.ZC-MLeft{
+    float: right; font-family: 'Microsoft YaHei';
+    color: #63625d;font-size:12px
+}
+.ZC-MLeft a{color:#0088cc}
+
+.ZC-mainB{
+      height: 458px;
+    padding: 50px 0px 74px 191px;
+}
+.form-box{
+    position:relative;
+}
+.form-box .login-data{
+    padding: 10px 0px;width:759px;height:36px;
+}
+.ZC-name{
+    font-size: 15px;  font-family: 'Microsoft YaHei';  color: #333333;
+    float: left;  width: 136px;  text-align: right;  line-height: 36px;
+}
+.ZC-input{
+    position: relative; float: left;
+    padding-left: 5px; display: inline;
+}
+.ZC-input input:hover{
+    box-shadow: 0 0 2px #333;
+}
+.ZC-input input{
+    vertical-align: middle;
+    padding: 0 10px 0 30px; text-indent: 0;
+    font-size: 12px;
+    color: #000;height:34px;border: 2px solid #999999;
+    border-radius: 2px;
+
+}
+.ZC-input .colorB{
+    border:2px solid #7fcbfe;
+    box-shadow: 0 0 2px #7fcbfe ;
+}
+.ZC-input .colorR{
+    border:2px solid #f77799;
+    box-shadow: 0 0 2px #f77799 ;
+}
+.ZC-input .input1{
+    width: 258px;
+    background: #ffffff url("../images/register.png") no-repeat 10px 9px;
+}
+.input1R,.input2R,.input3R,.input4R,.input5R,.input6R,.input7R{
+    width:250px;height:26px;float:left;margin-left:10px;padding-top:10px;
+}
+.input1R .input1Ra{display:none}
+.input1R .input1Rb{display:none}
+.input1R .input1Rc{display:none}
+.ZC-input .input2{
+    width: 258px;
+    background: #ffffff url("../images/register.png") no-repeat 10px -52px;
+}
+.ZC-input .input3{
+    width: 258px;
+    background: #ffffff url("../images/register.png") no-repeat 10px -52px;
+}
+.ZC-input .input4{
+    width: 258px;
+    background: #ffffff url("../images/register.png") no-repeat 10px -180px;
+}
+.ZC-input .input5{
+    width: 158px;
+    background: #ffffff url("../images/register.png") no-repeat 10px -52px;
+}
+.ZC-input .input6{
+    width: 158px;
+    background: #ffffff url("../images/register.png") no-repeat 10px -52px;
+}
+.ZC-input .input7{
+    width: 258px;
+    background: #ffffff url("../images/register.png") no-repeat 10px -287px;
+}
+#formP i{color:#df3d36; font-style: normal;}
+
+.ZC-select{
+    height: 25px;padding-left: 140px; line-height: 18px;
+    overflow: hidden;padding-top: 5px; color: #666666
+}
+.ZC-select label{
+    float: left;cursor: pointer;
+    outline: none;padding-right: 10px
+}
+.ZC-select label i{
+    display: inline-block;width: 11px;
+    height: 11px; float: left; border: 1px solid #55779b;
+    margin-top: 2px;
+}
+.ZC-select label span{
+    float: left; margin-left: 24px;font-size:12px;
+    display: inline; font-family: 'Microsoft YaHei';
+}
+.ZC-select label .clicked{
+    background: url("../images/register.png") no-repeat 0 -473px;
+    border: none;  width: 13px; height: 13px;
+}
+.ZC-select a{
+    float: left;font-size:12px;
+    display: inline;
+    color: #0088ca
+}
+.ZC-button{
+    padding-left: 134px; height: 36px;
+    overflow: hidden
+}
+.ZC-button button{
+    width: 300px;margin-left: 6px;color: #ffffff;
+    background: #e6133c; font-size: 16px; height: 36px;
+    cursor: pointer;border: 0; text-align: center;
+
+}
+.ZC-button button:hover{
+    background: #fa2244;
+}
+
+.footer .ZC-footer{
+    background: #f9f9f8 !important;
+}
+
+
+
+
+
+
+
+
+
+

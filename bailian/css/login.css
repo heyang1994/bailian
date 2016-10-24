@@ -1,0 +1,140 @@
+body{
+    font-family: 'Microsoft YaHei';
+}
+.ZC-box{background:#f9f9f8}
+.ZC-top{
+    height:110px;
+}
+.ZC-wrap{
+    width:950px;margin:0 auto;
+}
+.ZC-wrap .ZC-img{margin-top:21px;display:block;float:left;color:#666666}
+
+.login-main{
+    padding: 30px 0 25px 0;width:1263px;height:483px;margin:0 auto;
+    background: url("../images/zhuce/login-body.jpg") no-repeat center bottom;
+}
+.login-box{
+    width: 488px;  margin: 0 auto;height:470px;
+    border: 6px solid #e2e2e2;  background: #fff;
+}
+.login-box .min-box{
+    width: 300px; margin: 0 auto;height:381px;
+    padding: 45px 0; position: relative;
+}
+.login-title{
+    height: 50px;
+    line-height: 45px;
+}
+.login-title .login-titleL{
+    float: left; font-size: 18px;
+    color: #000000
+}
+.login-title .login-titleR{
+    float: right;
+    font-size: 12px;
+    color: #0088cc
+}
+.login-name{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.login-name input{
+    width: 250px;
+    height: 34px;color:#000;
+    font-size: 12px;background-color: rgb(250, 255, 189);
+    border: 1px solid #cccccc;
+    padding: 0 12px 0 35px;
+}
+.login-name i{
+    position: absolute;
+    top: 10px; left: 10px;
+}
+.login-password{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.login-password input{
+    width: 250px;
+    height: 34px;color:#000;
+    font-size: 12px;background-color: rgb(250, 255, 189);
+    border: 1px solid #cccccc;
+    padding: 0 12px 0 35px;
+}
+.login-password i{
+    position: absolute;
+    top: 10px; left: 10px;
+}
+.login-font{
+    height: 30px; line-height: 30px;
+    padding-bottom: 10px; clear: both;
+    color: #666666
+}
+.login-font a{
+    color: #666666;display: block;float:right;
+}
+.min-boxT button{
+    color: #ffffff;font-size:16px;
+    background: #e6133c;
+    height: 36px;width:288px;
+    border-radius: 2px;font-family: 'Microsoft YaHei';
+}
+
+.min-boxT .colorR{
+    border:2px solid #f77799;
+    box-shadow: 0 0 2px #f77799 ;
+}
+.min-boxT .colorB{
+    border:2px solid #7fcbfe;
+    box-shadow: 0 0 2px #7fcbfe ;
+}
+ .min-boxT button:hover{
+    background:#fa2244;
+ }
+ .first-login{
+     height: 52px;text-align: right;
+     line-height: 52px;
+ }
+ .first-login a{
+     background: url("../images/zhuce/right-icon.png") no-repeat left;
+     padding-left: 23px;
+     color: #666666;
+ }
+ .other-logo{
+     height: 49px;line-height: 49px;
+ }
+ .other-logo .other-logoB{
+     height: 24px;  border-bottom: 1px solid #dddddd;
+     text-align: center; line-height: 49px;
+ }
+.other-logo .other-logoB span{
+    background: #fff;padding: 0 15px;
+    color: #999;line-height: 49px;
+}
+.login-logo{
+    width: 320px;  margin-left: -10px;
+    margin-top: 10px;  height: 22px;
+    text-align: center;
+}
+.login-logo a{
+    display: inline-block;width: 66px;
+    height: 22px; margin: 0 5px;
+    background-repeat: no-repeat;
+    background-position: center bottom; text-align: center;
+}
+.login-logo .logo1{
+    background:url("../images/zhuce/login-cion-1.png")
+}
+.login-logo .logo2{
+    background:url("../images/zhuce/login-cion-2.png")
+}
+.login-logo .logo3{
+    background:url("../images/zhuce/login-cion-3.png")
+}
+.login-logo .logo4{
+    background:url("../images/zhuce/login-cion-4.png")
+}
+
+

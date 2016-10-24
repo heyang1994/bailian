@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link href="css/base.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="images/1192315.png" type="image/x-icon"/>
+    <link href="css/public.css" rel="stylesheet"/>
+    <link href="css/cart.css" rel="stylesheet"/>
+</head>
+<body class="wid-1200">
+<!--顶部工具栏的div开始-->
+<div class="tools">
+    <div class="cart-wrap">
+        <div class="tools-left">
+            <div class="tools-leftfont tools-leftfont1">
+                <a href="javascript:;"><span  class="webGo">网站导航</span><i></i></a>
+            </div>
+            <div class="tools-leftshow">
+                <div class="left-show-dl">
+                    <dl>
+                        <dd><a href="javascript:;">百联集团官网</a></dd>
+                        <dd><a href="javascript:;">安付宝网</a></dd>
+                        <dd><a href="javascript:;">第一医药</a></dd>
+                        <dd><a href="javascript:;">OK会员卡专区</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="tools-right" >
+            <ul>
+                <li id="user-login" class="login-button">
+                    <div class="wid120">
+                        <a>
+                            <i></i>
+                            <span>请登录</span>
+                        </a>
+                        <a>注册</a>
+                    </div>
+                    <b></b>
+                </li>
+                <li>
+                    <div class="tools-leftfont">
+                        <a>我的订单</a>
+                    </div>
+                    <b></b>
+                </li>
+                <li id="tools-leftfont1">
+                    <div class="tools-leftfont" >
+                        <span class="left-span">我的百联<i></i></span>
+                    </div>
+                    <div class="tools-leftmy">
+                        <dl>
+                            <dd><a>我的订单</a></dd>
+                            <dd><a>我的评价</a></dd>
+                            <dd><a>我的积分</a></dd>
+                            <dd><a>我的收藏</a></dd>
+                            <dd><a>我的优惠券</a></dd>
+                        </dl>
+                    </div>
+                    <b></b>
+                </li>
+                <li>
+                    <div class="tools-leftfont">
+                        <span class="left-span">充值缴费<i></i></span>
+                    </div>
+                    <div class="tools-leftCZ">
+
+                    </div>
+                    <b></b>
+                </li>
+                <li id="tools-leftfont3">
+                    <div class="tools-leftfont">
+                        <span class="left-span">客户服务<i></i></span>
+                    </div>
+                    <div class="tools-leftKH">
+                        <dl>
+                            <dd><a>在线客户</a></dd>
+                            <dd><a>帮助中心</a></dd>
+                        </dl>
+                    </div>
+                    <b></b>
+                </li>
+                <li id="tools-leftfont4">
+                    <div class="tools-leftfont">
+                        <span class="left-span">掌上百联<i></i></span>
+                    </div>
+                    <div class="tools-leftZS">
+                        <div class="erweiWrap">
+                            <a class="erweiImg"><img src="images/res13849.jpg"/></a>
+                        </div>
+                        <div class="erweiLine">
+                            <a class="erweif1">i百联APP</a>
+                        </div>
+                        <div class="erweiLine">
+                            <a class="erweif2">手机购物更方便</a>
+                        </div>
+                    </div>
+                    <b></b>
+                </li>
+                <li>
+                    <div class="tools-leftfont">
+                        <a href="javascript:;">购物车</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--顶部工具栏div结束-->
+
+<!--head头部开始-->
+<div class="cart-head">
+    <div class="cart-wrap">
+        <img class="cart-logo" src="images/logo.png"/>
+        <div class="cart-name">购物车</div>
+    </div>
+</div>
+<!--head头部结束-->
+<div class="cart-wrap">
+    <div class="cart-h1">
+        大型活动及促销活动期间，由于订单量激增，因此发货时效可能会比平时稍有延长，敬请谅解。
+    </div>
+    <div class="cart-title">
+        <div class="cart-TL">
+            全部商品<span>1</span>
+        </div>
+        <div class="cart-TR">
+            <span class="grey">优惠：</span><span class="reduce">-￥0.00</span>
+            商品金额(不含运费)：<span class="price">￥<i>0</i></span>
+            <button type="button">去结算</button>
+        </div>
+    </div>
+    <div class="cart-Table">
+            <div class="cart-all">
+                <div class="cart-all1">
+                    <input class="clk ch-all" type="checkbox"/>
+                    <div class="clk-name">全选</div>
+                </div>
+                <div class="cart-all2">
+                    商品信息
+                </div>
+                <div class="cart-all3">
+                    单价（元）
+                </div>
+                <div class="cart-all4">件数</div>
+                <div class="cart-all5">金额（元）</div>
+                <div class="cart-all6">操作</div>
+            </div>
+    </div>
+
+    <!---->
+    <div class="cart-box">
+        <!--<div class="cart-line cart-item">
+            <div class="cnk-line">
+                <input class="cnk ch-item" type="checkbox"/>
+            </div>
+            <div class="item-box">
+                <a targrt="blank" class="small-pic"><img src="images/goods/SP_3030_303001502488_01_10007.jpg"/></a>
+                <div class="item-name">
+                    <i class="global"></i>
+                    <a targrt="blank"> 爱利地可可味威化卷80g 意大利进口 </a>
+                </div>
+            </div>
+            <div class="type-box"></div>
+            <div class="item-price-box">
+                <div class="item-price">￥<i>10.80</i></div>
+            </div>
+            <div class="numbuer-box">
+                <div class="nub-reduce">-</div>
+                <input type="text" class="num-text" value="4"/>
+                <div class="nub-add">+</div>
+            </div>
+            <div class="price-box">
+                <div class="total-price item-sum">￥<i></i></div>
+            </div>
+            <div class="action-box">
+                <a>移入收藏夹</a>
+                <a class="remove delRemove">删除</a>
+            </div>
+        </div>-->
+    </div>
+
+    <div class="pay-form">
+        <div class="pay-line">
+            <div class="select-all">
+                <input class="select-box ch-all" type="checkbox"/>
+                <div class="select-txt">全选</div>
+            </div>
+            <a class="txt-delete">
+                <i></i>删除
+            </a>
+            <a class="remove-txt">清除失效商品</a>
+            <a class="remove-txt">移入收藏夹</a>
+            <a class="pay-button">去结算</a>
+            <div class="message">
+                <div class="price-line">
+                    <span>商品金额（不含运费）：</span>
+                    <span class="all-money"><i>￥</i><strong>0</strong></span>
+                </div>
+                <div class="reduce-line">
+                    <span>优惠: </span>-￥0.00
+                </div>
+            </div>
+            <a class="item-show">已选择 <span></span> 件商品</a>
+        </div>
+    </div>
+</div>
+
+
+
+<!--footer底部开始-->
+<div class="footer">
+
+    <div class="footer-top">
+        <div class="wrap">
+            <div class="helpNav-list">
+                <div class="helpNav-title">
+                    <i><img src="images/footer-icon-1.png"/></i>
+                    新手入门
+                </div>
+                <ul>
+                    <li><a href="javascript:;">购物流程</a></li>
+                    <li><a href="javascript:;">会员介绍</a></li>
+                    <li><a href="javascript:;">常见问题</a></li>
+                    <li><a href="javascript:;">发票说明</a></li>
+                    <li><a href="javascript:;">联系客户</a></li>
+                </ul>
+            </div>
+            <div class="helpNav-list">
+                <div class="helpNav-title">
+                    <i><img src="images/footer-icon-2.png"/></i>
+                    配送服务
+                </div>
+                <ul>
+                    <li><a href="javascript:;">配送范围及运费</a></li>
+                    <li><a href="javascript:;">配送进度查询</a></li>
+                    <li><a href="javascript:;">自提服务</a></li>
+                    <li><a href="javascript:;">商品验货与签收</a></li>
+                </ul>
+            </div>
+            <div class="helpNav-list">
+                <div class="helpNav-title">
+                    <i><img src="images/footer-icon-3.png"/></i>
+                    支付方式
+                </div>
+                <ul>
+                    <li><a href="javascript:;">货到付款</a></li>
+                    <li><a href="javascript:;">在线支付</a></li>
+                </ul>
+            </div>
+            <div class="helpNav-list">
+                <div class="helpNav-title">
+                    <i><img src="images/footer-icon-4.png"/></i>
+                    售后服务
+                </div>
+                <ul>
+                    <li><a href="javascript:;">退换货政策</a></li>
+                    <li><a href="javascript:;">退换货流程</a></li>
+                    <li><a href="javascript:;">退款说明</a></li>
+                </ul>
+            </div>
+            <div class="helpNav-list">
+                <div class="helpNav-title">
+                    <i><img src="images/footer-icon-6.png"/></i>
+                    特色服务
+                </div>
+                <ul>
+                    <li><a href="javascript:;">优鲜集市</a></li>
+                    <li><a href="javascript:;">生鲜随心订</a></li>
+                    <li><a href="javascript:;">精选篮筐</a></li>
+                    <li><a href="javascript:;">全球购</a></li>
+                    <li><a href="javascript:;">精品闪购</a></li>
+                    <li><a href="javascript:;">百联到家</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="footerB1"><a>关于我们</a><span>|</span><a>联系我们</a><span>|</span>
+            <a>加盟合作</a><span>|</span><a>诚征英才</a><span>|</span><a>友情链接</a></div>
+        <div class="copyRight">
+            百联集团有限公司旗下 上海百联全渠道电子商务有限公司版权所有 <span>|</span>
+            客服电话：400-900-8800<span>|</span> 沪ICP备15028847号
+        </div>
+        <div class="footerB2">
+            <a>互联网药品信息服务资质证书编号：沪-（非营业性）-2016-0044</a>
+        </div>
+        <div class="footerB3">
+            <a><img src="images/gongan.png"/><span>沪公网安备  31010102002366号</span></a>
+            <a><img src="images/wangjing.png"/><span>网购大家评</span></a>
+            <a><img src="images/gongs.png" width="20" height="21"/><span>上海工商</span></a>
+        </div>
+    </div>
+</div>
+<!--footer底部结束-->
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>
